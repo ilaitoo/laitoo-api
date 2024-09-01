@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div class="flex flex-col gap-2 h-svh justify-center items-center">
+      <h2 class="mx-auto">Users In The Database:</h2>
+      <div class="mx-auto flex p-10 justify-center w-full" id="users">
+        <table class="bg-blue-400 text-center sm:w-160 md:w-160 mx-10 w-160">
+          <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>password</th>
+          </tr>
+        </table>
+      </div>
+      <button id="btn" class="mx-auto bg-green-500 w-56 h-10 rounded-lg">
+        get all users
+      </button>
+      <a
+        href="/index.html"
+        id="btn2"
+        class="mx-auto flex justify-center items-center bg-green-500 w-56 h-10 rounded-lg"
+      >
+        get back
+      </a>
+    </div>
+    <script src="./src/logged.js"></script>
+  </body>
+</html>
